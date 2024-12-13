@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Web Form</title>
+  <link rel="stylesheet" href="Css/StyleSheet.css"> 
+  <title>Add Concert</title>
+</head>
+<body>
+  <div class="form-wrapper">
+      <h1>Add a New Concert</h1>
+
+
+      <form method="post" action="/Home/ShowConcert">
+        <div class="form-group">
+          <label for="name">Concert Name:</label>
+          <input type="text" id="name" name="Name" required><br><br>
+        </div>
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="Date" required><br><br>
+        </div>
+        <label for="venue">Venue:</label>
+        <input type="text" id="venue" name="Venue" required><br><br>
+        <div class="form-group">
+          <button type="submit">Add Concert</button>
+        </div>
+
+      </form>      
+
+      <script>
+        const apiUrl = '/api/concerts';
+
+        // Fetch and display concerts
+        async function fetchConcerts() {
+          const response = await fetch(apiUrl);
+          const concerts = await response.json();
+          const concertList = document.getElementById('concert-list');
+          concertList.innerHTML = '';
+          concerts.forEach(concert => {
+            const li = document.createElement('li');
+            li.textContent = `${concert.Name} - ${concert.Date} at ${concert.Venue}`;
+            concertList.appendChild(li);
+          });
+        }
+
+        document.getElementById('concert-form').addEventListener('submit', async (e) => {
+          e.preventDefault();
+
+          const name = document.getElementById('name').value;
+          const date = document.getElementById('date').value;
+          const venue = document.getElementById('venue').value;
+
+
+          await fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ Name: name, Date: date, Venue: venue })
+          });
+
+
+          fetchConcerts();
+
+
+          e.target.reset();
+        });
+
+
+        fetchConcerts();
+      </script>
+    </div class="form-wrapper">
+</body>
+</html>

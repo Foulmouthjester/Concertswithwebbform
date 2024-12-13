@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\Css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\Css\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\Index.html",
+      "PackagePath": "staticwebassets\\Index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Concerts.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Concerts.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Concerts.props",
+      "PackagePath": "build\\Concerts.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Concerts.props",
+      "PackagePath": "buildMultiTargeting\\Concerts.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Concerts.props",
+      "PackagePath": "buildTransitive\\Concerts.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

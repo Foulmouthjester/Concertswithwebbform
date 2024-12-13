@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "j7wVDy+jgGPU8XQTOx/DOYJnz3RscmwNuguACMD6n2k=",
+  "Source": "Concerts",
+  "BasePath": "_content/Concerts",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Concerts\\wwwroot",
+      "Source": "Concerts",
+      "ContentRoot": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\",
+      "BasePath": "_content/Concerts",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\Css\\StyleSheet.css",
+      "SourceId": "Concerts",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\",
+      "BasePath": "_content/Concerts",
+      "RelativePath": "Css/StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fv71y9e35e",
+      "Integrity": "G6QiiOeIC2Nlz5I3sHPLQX8UXR5oR20p8y5Gqou9tNI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\StyleSheet.css"
+    },
+    {
+      "Identity": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\Index.html",
+      "SourceId": "Concerts",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\",
+      "BasePath": "_content/Concerts",
+      "RelativePath": "Index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6dojlbn0bp",
+      "Integrity": "GrNW3vyphrBe6puglIRgPUQ/UQVRcXmK98XD6dls1aE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Css/StyleSheet.css",
+      "AssetFile": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\Css\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G6QiiOeIC2Nlz5I3sHPLQX8UXR5oR20p8y5Gqou9tNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:35:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G6QiiOeIC2Nlz5I3sHPLQX8UXR5oR20p8y5Gqou9tNI="
+        }
+      ]
+    },
+    {
+      "Route": "Css/StyleSheet.fv71y9e35e.css",
+      "AssetFile": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\Css\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G6QiiOeIC2Nlz5I3sHPLQX8UXR5oR20p8y5Gqou9tNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:35:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fv71y9e35e"
+        },
+        {
+          "Name": "label",
+          "Value": "Css/StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G6QiiOeIC2Nlz5I3sHPLQX8UXR5oR20p8y5Gqou9tNI="
+        }
+      ]
+    },
+    {
+      "Route": "Index.6dojlbn0bp.html",
+      "AssetFile": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GrNW3vyphrBe6puglIRgPUQ/UQVRcXmK98XD6dls1aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:36:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6dojlbn0bp"
+        },
+        {
+          "Name": "label",
+          "Value": "Index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GrNW3vyphrBe6puglIRgPUQ/UQVRcXmK98XD6dls1aE="
+        }
+      ]
+    },
+    {
+      "Route": "Index.html",
+      "AssetFile": "C:\\Users\\jeste\\source\\repos\\Concerts\\wwwroot\\Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GrNW3vyphrBe6puglIRgPUQ/UQVRcXmK98XD6dls1aE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:36:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GrNW3vyphrBe6puglIRgPUQ/UQVRcXmK98XD6dls1aE="
+        }
+      ]
+    }
+  ]
+}
